@@ -12,6 +12,8 @@
 
   """
 
+import sys
+import os
 from my_utils import str_util, file_util
 
 print(str_util.str_reverse("hello"))
