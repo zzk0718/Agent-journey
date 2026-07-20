@@ -24,4 +24,5 @@ print(l)
 # JSON字符串转字典
 dict_str = '{"title":"Python教程","price":49.9}'
 res_dict = json.loads(dict_str)
-print("解析字典取值：", res_dict["title"])
+print(type(dict_str))
+print(dict_str)
